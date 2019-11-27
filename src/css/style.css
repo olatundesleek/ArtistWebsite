@@ -1,1 +1,58 @@
-*{margin:0;padding:0;}
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+#page-container {
+  background: linear-gradient(290deg, black, #4b3c0a, black);
+}
+
+#page-container #page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+#page-container #page-header img {
+}
+
+#page-container .buy-ticket {
+  color: #d4b038;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 10px 0 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #4e4116;
+}
+#page-content {
+  color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  padding: 30px;
+}
+.page-left-menu {
+  padding: 12px 15px;
+}
+
+.page-left-menu ul li {
+  padding: 10px;
+  font-family: "Agency FB";
+}
+.page-left-menu .active {
+  color: #d4b038;
+  font-size: 15px;
+}
+.page-handles {
+  margin-top: 100px;
+}
+.page-right-menu {
+}
+
+#page-footer .Artist-name {
+  color: #d4b038;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
