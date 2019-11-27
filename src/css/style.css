@@ -3,16 +3,19 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 #page-container {
-  background: linear-gradient(290deg, black, #4b3c0a, black);
+  /*background: linear-gradient(290deg, white, #fff, black);*/
+  background-color: black;
 }
 
 #page-container #page-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 10px;
+  padding: 30px 30px;
 }
 
 #page-container #page-header img {
@@ -26,6 +29,10 @@
   font-family: Arial, Helvetica, sans-serif;
   background: #4e4116;
 }
+#page-container .buy-ticket:hover {
+  color: #fff;
+  background: #333333;
+}
 #page-content {
   color: #ccc;
   display: flex;
@@ -36,7 +43,13 @@
 .page-left-menu {
   padding: 12px 15px;
 }
-
+.page-left-menu ul li a {
+  color: gray;
+}
+.page-left-menu ul li a:hover {
+  color: #fff;
+  font-size: 20px;
+}
 .page-left-menu ul li {
   padding: 10px;
   font-family: "Agency FB";
@@ -53,6 +66,5 @@
 
 #page-footer .Artist-name {
   color: #d4b038;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
