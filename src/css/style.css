@@ -102,6 +102,7 @@ body {
 }
 .page-left-menu ul li a {
   color: #fff;
+  font-family: cursive;
 }
 
 .page-left-menu ul li {
@@ -110,6 +111,7 @@ body {
 .page-left-menu .active {
   color: #d4b038;
   font-size: 15px;
+  font-family: ;
 }
 .page-handles {
   margin-top: 10px;
