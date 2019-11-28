@@ -230,6 +230,8 @@
   width: 90%;
   margin-top: -90px;
   user-select: none;
+  z-index: 1000;
+  cursor: pointer;
 }
 .progress__top {
   display: flex;
@@ -251,12 +253,14 @@
 }
 
 .progress__bar {
-  height: 6px;
+  height: 7px;
   width: 80%;
   cursor: pointer;
   background-color: #d0d8e6;
   display: inline-block;
   border-radius: 10px;
+  z-index: 1000;
+  margin-top: 45px;
 }
 
 .progress__current {

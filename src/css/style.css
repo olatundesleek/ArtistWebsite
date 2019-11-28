@@ -1,3 +1,7 @@
+body {
+  scroll-behavior: smooth;
+  background-color: black;
+}
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +9,7 @@
   text-decoration: none;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-body {
-  background-color: black;
-}
+
 #first {
   overflow: hidden;
   height: 600px;
@@ -23,6 +25,11 @@ body {
 
   z-index: -110;
   top: 0;
+}
+.logo {
+  cursor: pointer;
+}
+.logo:hover {
 }
 @keyframes scale {
   0% {
@@ -43,9 +50,6 @@ body {
   padding: 30px 30px;
 }
 
-#page-container #page-header img {
-}
-
 #page-container .buy-ticket {
   color: white;
   padding: 8px;
@@ -56,26 +60,22 @@ body {
 }
 #page-container .buy-ticket:hover {
   color: #fff;
-  background: #333333;
+  background: #ff4d1b;
 }
 .fa {
+  cursor: pointer;
   padding: 3px;
 }
-.discover {
-  position: absolute;
-  top: 50%;
-  left: 40%;
+.fa:hover {
   color: #fff;
-  font-size: 30px;
-  padding: 5px;
-  border: 1.5px white solid;
-  z-index: 1;
 }
+
 .discover:hover {
   border-color: #ff4419;
   color: black;
   box-shadow: black 2px 3px 5px 2px;
 }
+
 #page-content {
   color: #ccc;
   display: flex;
@@ -103,10 +103,7 @@ body {
 .page-left-menu ul li a {
   color: #fff;
 }
-.page-left-menu ul li a:hover {
-  color: #fff;
-  font-size: 20px;
-}
+
 .page-left-menu ul li {
   padding: 10px;
 }
@@ -123,4 +120,55 @@ body {
 #page-footer .Artist-name {
   color: #d4b038;
   text-align: center;
+}
+
+.discover {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  display: inline-block;
+
+  border-width: 1px 0;
+  padding: 5px;
+  position: absolute;
+  top: 18%;
+  left: 35%;
+
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  color: #fff;
+  font-size: 10px;
+  padding: 3px;
+  border: 1.5px white solid;
+  z-index: 1;
+}
+
+.discover span {
+  font: 700 4em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: 0.25em 0 0.325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  /* Clip Background Image */
+  background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png)
+    repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Animate Background Image */
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+  /* Activate hardware acceleration for smoother animations */
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
