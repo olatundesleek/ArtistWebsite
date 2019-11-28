@@ -13,9 +13,9 @@ new Vue({
           name: "Dumebi",
           artist: "Rema",
           cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
+            "https://raw.githubusercontent.com/olatundesleek/ArtistWebsite/master/img/dumebi.jpg",
           source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
+            "https://raw.githubusercontent.com/olatundesleek/ArtistWebsite/master/mp3/Rema-Dumebi.mp3",
           url: "https://www.youtube.com/watch?v=thIH-e2pWQM",
           favorited: false
         },
@@ -23,9 +23,9 @@ new Vue({
           name: "Iron Man",
           artist: "Rema",
           cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
+            "https://raw.githubusercontent.com/olatundesleek/ArtistWebsite/master/img/ironman.jpg",
           source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
+            "https://raw.githubusercontent.com/olatundesleek/ArtistWebsite/master/mp3/Rema-Iron_Man.mp3",
           url: "https://www.youtube.com/watch?v=EJIDnsi7r8o",
           favorited: true
         },
@@ -33,9 +33,9 @@ new Vue({
           name: "Corny",
           artist: "Rema",
           cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
+            "https://raw.githubusercontent.com/olatundesleek/ArtistWebsite/master/img/corny.jpg",
           source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
+            "https://raw.githubusercontent.com/olatundesleek/ArtistWebsite/master/mp3/Rema-Corny.mp3",
           url: "https://www.youtube.com/watch?v=UdKTx-8EvtM",
           favorited: false
         },
@@ -43,61 +43,21 @@ new Vue({
           name: "All is in order",
           artist: "Mavins all stars",
           cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/4.jpg",
+            "https://raw.githubusercontent.com/olatundesleek/ArtistWebsite/master/img/allisinorder.jpg",
           source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
+            "https://raw.githubusercontent.com/olatundesleek/ArtistWebsite/master/mp3/Don%20Jazzyx_Rema_x_Korede_x_Crayon_x_DNA_-_All_Is_In_Order-tooXclusive_.mp3",
           url: "https://www.youtube.com/watch?v=d-pwj2SEUd8",
           favorited: false
         },
         {
-          name: "The Final Victory",
-          artist: "Haggard",
+          name: "Bad Commando",
+          artist: "Rema",
           cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/5.jpg",
+            "https://raw.githubusercontent.com/olatundesleek/ArtistWebsite/master/img/rema-bad-commando.jpg",
           source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/5.mp3",
+            "https://raw.githubusercontent.com/olatundesleek/ArtistWebsite/master/mp3/Rema_-_Bad_Commando.mp3",
           url: "https://www.youtube.com/watch?v=0WlpALnQdN8",
           favorited: true
-        },
-        {
-          name: "Genius ft. Sia, Diplo, Labrinth",
-          artist: "LSD",
-          cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/6.jpg",
-          source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/6.mp3",
-          url: "https://www.youtube.com/watch?v=HhoATZ1Imtw",
-          favorited: false
-        },
-        {
-          name: "The Comeback Kid",
-          artist: "Lindi Ortega",
-          cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/7.jpg",
-          source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/7.mp3",
-          url: "https://www.youtube.com/watch?v=me6aoX0wCV8",
-          favorited: true
-        },
-        {
-          name: "Overdose",
-          artist: "Grandson",
-          cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/8.jpg",
-          source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/8.mp3",
-          url: "https://www.youtube.com/watch?v=00-Rl3Jlx-o",
-          favorited: false
-        },
-        {
-          name: "Rag'n'Bone Man",
-          artist: "Human",
-          cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
-          source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
-          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
-          favorited: false
         }
       ],
       currentTrack: null,
