@@ -10,43 +10,43 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
+          name: "Dumebi",
+          artist: "Rema",
           cover:
             "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
           source:
             "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
-          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          url: "https://www.youtube.com/watch?v=thIH-e2pWQM",
           favorited: false
         },
         {
-          name: "Everybody Knows",
-          artist: "Leonard Cohen",
+          name: "Iron Man",
+          artist: "Rema",
           cover:
             "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
           source:
             "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
-          url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
+          url: "https://www.youtube.com/watch?v=EJIDnsi7r8o",
           favorited: true
         },
         {
-          name: "Extreme Ways",
-          artist: "Moby",
+          name: "Corny",
+          artist: "Rema",
           cover:
             "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
           source:
             "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
-          url: "https://www.youtube.com/watch?v=ICjyAe9S54c",
+          url: "https://www.youtube.com/watch?v=UdKTx-8EvtM",
           favorited: false
         },
         {
-          name: "Butterflies",
-          artist: "Sia",
+          name: "All is in order",
+          artist: "Mavins all stars",
           cover:
             "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/4.jpg",
           source:
             "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
-          url: "https://www.youtube.com/watch?v=kYgGwWYOd9Y",
+          url: "https://www.youtube.com/watch?v=d-pwj2SEUd8",
           favorited: false
         },
         {
