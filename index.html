@@ -13,7 +13,12 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
-    <title>Artist Website</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Hind+Madurai|Lora|Nanum+Myeongjo&display=swap"
+      rel="stylesheet"
+    />
+    <title>Remaonline.com | Home</title>
   </head>
   <body>
     <div id="page-container">
@@ -25,11 +30,12 @@
 
       <section id="first">
         <header id="page-header">
-          <img
-            class="logo"
-            src="src/images/Mavin-Records-Logo.png"
-            alt="websitelogo"
-          />
+          <a href="index.html">
+            <img
+              class="logo"
+              src="src/images/Mavin-Records-Logo.png"
+              alt="websitelogo"
+          /></a>
           <a class="buy-ticket" href="#">Buy Commando merch</a>
         </header>
         <main id="page-content">
@@ -37,19 +43,42 @@
           <div class="page-left-menu">
             <nav class="page-menu">
               <ul>
-                <li><a class="active" href="">-- HOME --</a></li>
-                <li><a href="">music/video</a></li>
-                <li><a href="">event</a></li>
-                <li><a href="">gallery</a></li>
-                <li><a href="">about</a></li>
+                <li>
+                  <a class="active effect-5" href=""><span>Home</span></a>
+                </li>
+                <li>
+                  <a class="effect-5" href=""><span>Music</span></a>
+                </li>
+                <li>
+                  <a class="effect-5" href="pages/videos.html"
+                    ><span>Video</span></a
+                  >
+                </li>
+                <li>
+                  <a class="effect-5" href="pages/events.html"
+                    ><span>Event</span></a
+                  >
+                </li>
+                <li>
+                  <a class="effect-5" href=""><span>Gallery</span></a>
+                </li>
+                <li>
+                  <a class="effect-5" href=""><span>Bio</span></a>
+                </li>
+                <li>
+                  <a class="effect-5" href=""><span>Mailing list</span></a>
+                </li>
               </ul>
             </nav>
             <div class="page-handles">
               <div class="social-media">
+                <i class="fa fa-spotify"></i>
                 <i class="fa fa-twitter"></i>
-                <i class="fa fa-facebook-f"></i>
+                <!-- <i class="fa fa-facebook-f"></i> -->
+                <i class="fa fa-amazon"></i>
                 <i class="fa fa-instagram"></i>
                 <i class="fa fa-youtube"></i>
+                <i class="fa fa-apple"></i>
               </div>
             </div>
           </div>
@@ -239,14 +268,16 @@
             </div>
           </div>
         </main>
+        <footer id="page-footer">
+          &copy copyright Mavin music empire 2019.All Rights Reserved.
+        </footer>
       </section>
-      <section id="second">
+      <!-- <section id="second">
         <div class="second-section">content-here</div>
         <div class="second-section">content-here</div>
         <div class="second-section">content-here</div>
         <div class="second-section">content-here</div>
-      </section>
-      <footer id="page-footer"></footer>
+      </section> -->
     </div>
 
     <script src="/src/js/app.js"></script>
