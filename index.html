@@ -22,7 +22,7 @@
   </head>
   <body>
     <div id="page-container">
-      <p class="discover">
+      <p class="discover desktop">
         <span>
           <a class="" href="#second">Discover more</a>
         </span>
@@ -36,12 +36,17 @@
               src="src/images/Mavin-Records-Logo.png"
               alt="websitelogo"
           /></a>
-          <a class="buy-ticket" href="#">Buy Commando merch</a>
+
+          <a class="buy-ticket desktop" href="#">Buy Commando merch</a>
+          <div class="playbtn phone ">
+            <i class="fa fa-play-circle "></i>
+            <span>play music</span>
+          </div>
         </header>
         <main id="page-content">
           <img class="bgImg" src="src/images/rema.jpg" />
           <div class="page-left-menu">
-            <nav class="page-menu">
+            <nav class="page-menu ">
               <ul>
                 <li>
                   <a class="active effect-5" href=""><span>Home</span></a>
@@ -83,9 +88,10 @@
             </div>
           </div>
           <div class="page-right-menu">
-            <div class="page-player">
+            <div class="page-player desktop">
               <div class="wrapper" id="app">
                 <div class="player">
+                  <i class="fa fa-times-circle close"></i>
                   <div class="player__top">
                     <div class="player-cover">
                       <transition-group :name="transitionName">
@@ -282,5 +288,6 @@
 
     <script src="/src/js/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="src/js/page.js"></script>
   </body>
 </html>

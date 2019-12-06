@@ -7,6 +7,15 @@
   fill: currentColor;
   color: black;
 }
+@keyframes app {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 
 .wrapper {
   width: 100%;
@@ -16,7 +25,8 @@
   min-height: 80vh;
   background-size: cover;
 }
-@media screen and (max-width: 700px), (max-height: 500px) {
+
+@media screen and (max-width: 600px), (max-height: 500px) {
   .wrapper {
     flex-wrap: wrap;
     flex-direction: column;
@@ -31,8 +41,10 @@
   border-radius: 15px;
   padding: 30px;
   margin-top: -100px;
+  position: relative;
+  animation: app 1.5s forwards;
 }
-@media screen and (max-width: 576px), (max-height: 500px) {
+@media screen and (max-width: 600px), (max-height: 500px) {
   .player {
     width: 95%;
     padding: 20px;
@@ -280,6 +292,12 @@
   .album-info {
     padding-right: 30px;
   }
+  .progress {
+    margin-top: -60px;
+  }
+  .progress__bar {
+    margin-top: 10px;
+  }
 }
 .album-info__name {
   font-size: 10px;
@@ -304,6 +322,9 @@
   .album-info__track {
     font-size: 18px;
     min-height: 50px;
+  }
+  icon {
+    margin-top: 50px;
   }
 }
 
@@ -379,4 +400,19 @@
   transform: scale(0.55);
   pointer-events: none;
   opacity: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    position: absolute;
+    top: 23%;
+  }
+  .player {
+    width: 70%;
+  }
+  .player-cover {
+    width: 80%;
+    text-align: left;
+    margin-right: 90px;
+  }
 }
